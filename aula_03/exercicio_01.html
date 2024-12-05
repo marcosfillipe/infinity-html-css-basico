@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio Table</title>
+  <style>
+    table {
+      text-align: center;
+      align-content: center;
+      border: 1px solid black;
+      margin-top: 150px;
+      border-collapse: collapse;
+      padding: 10px;
+      width: 600px;
+
+      & tr {
+        border: 1px solid black;
+        padding: 10px;
+      }
+
+      & th {
+        border: 1px solid black;
+        padding: 10px;
+        background-color: red;
+      }
+
+      & td {
+        border: 1px solid black;
+        padding: 10px;
+        font-size: 25px;
+      }
+    }
+
+    .colunaVazia {
+      background-color: green;
+    }
+
+    .colunaProfessor {
+      background-color: yellow;
+    }
+
+    .colunaAluno {
+      background-color: blue;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <center>
+    <table>
+      <thead>
+        <th>Coluna 01</th>
+        <th>Coluna 02</th>
+        <th>Coluna 03</th>
+        <th>Coluna 04</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="colunaAluno">Fillipe</td>
+          <td class="colunaAluno">Fillipe</td>
+          <td class="colunaVazia"></td>
+          <td class="colunaProfessor">Luan</td>
+        </tr>
+        <tr>
+          <td class="colunaVazia"></td>
+          <td class="colunaAluno">Fillipe</td>
+          <td class="colunaProfessor">Luan</td>
+          <td class="colunaProfessor">Luan</td>
+        </tr>
+        <tr>
+          <td class="colunaProfessor">Luan</td>
+          <td class="colunaAluno">Fillipe</td>
+          <td class="colunaAluno">Fillipe</td>
+          <td class="colunaVazia"></td>
+        </tr>
+      </tbody>
+    </table>
+  </center>
+
+</body>
+
+</html>
