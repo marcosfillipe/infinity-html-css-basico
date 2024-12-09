@@ -1,0 +1,23 @@
+.bloco {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-bloco {
+  display: inline-block;
+}
+
+.none {
+  display: none;
+}
+
+.visivel {
+  visibility: visible;
+}
+
+.invisivel {
+  visibility: hidden;
+}
