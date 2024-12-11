@@ -2,6 +2,7 @@
 
 Neste repositório vai conter todo o conteudo das aulas praticas e exercicios do curso completo.
 
+---
 
 **Links dos exercicios separados:**
 
@@ -10,6 +11,17 @@ Neste repositório vai conter todo o conteudo das aulas praticas e exercicios do
 [Exercício Aula - 03](https://github.com/marcosfillipe/infinity-html-css-basico-exercicio03) <br>
 [Exercício Aula - 04](https://github.com/marcosfillipe/infinity-html-css-basico-exercicio04) <br>
 [Exercício Aula - 05](https://github.com/marcosfillipe/infinity-html-css-basico-exercicio05) <br>
+[Exercício Aula - 06](https://github.com/marcosfillipe/infinity-html-css-basico-exercicio06) <br>
+
+---
+**Links dos Projetos realizados:**
+
+
+---
+
+**Links das avaliações do curso:**
+
+
 
 
 ---
