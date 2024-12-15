@@ -17,6 +17,7 @@ Neste repositório vai conter todo o conteudo das aulas praticas e exercicios do
 
 **Links dos Projetos realizados:**
 
+[Projeto - 01](https://github.com/marcosfillipe/infinity-html-css-basico-projeto01) <br>
 
 ---
 
