@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #4CAF50;
+  border-radius: 10px;
+  position: absolute;
+  animation: complexAnimation 4s infinite;
+}
+
+@keyframes complexAnimation {
+  0% {
+      transform: translate(0, 0);
+      opacity: 1;
+      background-color: #4CAF50;
+  }
+  25% {
+      transform: translate(50px, 50px);
+      opacity: 0.8;
+      background-color: #FF5722;
+  }
+  50% {
+      transform: translate(150px, -50px);
+      opacity: 0.6;
+      background-color: #2196F3;
+  }
+  75% {
+      transform: translate(100px, 100px);
+      opacity: 0.4;
+      background-color: #9C27B0;
+  }
+  100% {
+      transform: translate(0, 0);
+      opacity: 1;
+      background-color: #4CAF50;
+  }
+}
+
+.btn {
+  position: absolute;
+  bottom: 20px;
+  padding: 10px 20px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #005F6B;
+}

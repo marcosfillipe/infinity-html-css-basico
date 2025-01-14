@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+form div {
+  margin-bottom: 1.5em;
+  position: relative;
+}
+
+form div.user::before {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: 5px;
+  transform: translateY(-50%);
+  font-size: 1.2em;
+  color: #4CAF50;
+}
+
+input {
+  width: 100%;
+  padding: 0.8em 2em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.buttons {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.titulo {
+  text-align: center;
+  align-items: center;
+  color: blue;
+  font-weight: bold;
+}
+
+button {
+  width: 48%;
+  padding: 0.8em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover::after {
+  content: "✔";
+  display: inline-block;
+  margin-left: 0.5em;
+  color: white;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button[type="reset"] {
+  background-color: #f44336;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  form {
+      width: 100%;
+      padding: 1.5em;
+  }
+
+  button {
+      width: 100%;
+      margin-bottom: 1em;
+  }
+
+  button:last-child {
+      margin-bottom: 0;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  form {
+      width: 80%;
+  }
+}
+
+@media (min-width: 1025px) {
+  form {
+      width: 400px;
+  }
+}

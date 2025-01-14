@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 2em;
+}
+
+h1 {
+  text-align: center; 
+  color: #333;
+}
+
+p {
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 2em 0;
+}
+
+p::first-letter {
+  font-size: 2.5em;
+  color: #0a0ee0;
+  font-weight: bold;
+  float: left;
+  margin-right: 0.1em;
+  line-height: 1;
+}
+
+p::first-line {
+  color: #ba1212;
+  font-style: italic;
+}

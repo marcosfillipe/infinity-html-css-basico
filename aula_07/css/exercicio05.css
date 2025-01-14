@@ -1,0 +1,129 @@
+/* Definindo as variáveis de tamanhos para fontes e espaçamentos */
+:root {
+  --font-size-h1: 2rem;
+  --font-size-h2: 1.5rem;
+  --font-size-p: 1rem;
+  
+  --spacing-small: 10px;
+  --spacing-medium: 20px;
+  --spacing-large: 40px;
+}
+
+/* Aplicando as variáveis no layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: var(--spacing-medium);
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: var(--spacing-large);
+  text-align: center;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  margin-bottom: var(--spacing-medium);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  margin-top: var(--spacing-medium);
+  margin-bottom: var(--spacing-small);
+}
+
+p {
+  font-size: var(--font-size-p);
+  margin-bottom: var(--spacing-medium);
+}
+
+/* Media Queries para tamanhos de tela diferentes */
+
+/* Tela pequena (mobile) */
+@media (max-width: 600px) {
+  :root {
+      --font-size-h1: 1.5rem;
+      --font-size-h2: 1.2rem;
+      --font-size-p: 0.9rem;
+      --spacing-small: 5px;
+      --spacing-medium: 15px;
+      --spacing-large: 30px;
+  }
+
+  header {
+      padding: var(--spacing-medium);
+  }
+
+  h1 {
+      font-size: var(--font-size-h1);
+  }
+
+  h2 {
+      font-size: var(--font-size-h2);
+  }
+
+  p {
+      font-size: var(--font-size-p);
+  }
+}
+
+/* Tela média (tablets e pequenas telas de desktop) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  :root {
+      --font-size-h1: 1.8rem;
+      --font-size-h2: 1.4rem;
+      --font-size-p: 1.1rem;
+      --spacing-small: 8px;
+      --spacing-medium: 18px;
+      --spacing-large: 35px;
+  }
+
+  header {
+      padding: var(--spacing-medium);
+  }
+
+  h1 {
+      font-size: var(--font-size-h1);
+  }
+
+  h2 {
+      font-size: var(--font-size-h2);
+  }
+
+  p {
+      font-size: var(--font-size-p);
+  }
+}
+
+/* Tela grande (desktop e monitores maiores) */
+@media (min-width: 1025px) {
+  :root {
+      --font-size-h1: 2.5rem;
+      --font-size-h2: 1.8rem;
+      --font-size-p: 1.2rem;
+      --spacing-small: 10px;
+      --spacing-medium: 20px;
+      --spacing-large: 40px;
+  }
+
+  header {
+      padding: var(--spacing-large);
+  }
+
+  h1 {
+      font-size: var(--font-size-h1);
+  }
+
+  h2 {
+      font-size: var(--font-size-h2);
+  }
+
+  p {
+      font-size: var(--font-size-p);
+  }
+}
