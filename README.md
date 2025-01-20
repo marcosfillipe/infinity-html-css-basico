@@ -37,8 +37,8 @@ FINAL - [Landing-Page](https://github.com/marcosfillipe/infinity-html-css-basico
 
 ---
 
-<center>
+<p align="center">
   <img src="https://media.licdn.com/dms/image/v2/D4D0BAQFNR93j4fKXJA/company-logo_200_200/company-logo_200_200/0/1696797819036/infinityschool_logo?e=2147483647&v=beta&t=X855ID8EbNdKw7eqwLFiIYDU4u0ebPDieJK_MX41fxU" alt="Infinity School">
-</center>
+</p>
 
 <!-- ![](https://media.licdn.com/dms/image/v2/D4D0BAQFNR93j4fKXJA/company-logo_200_200/company-logo_200_200/0/1696797819036/infinityschool_logo?e=2147483647&v=beta&t=X855ID8EbNdKw7eqwLFiIYDU4u0ebPDieJK_MX41fxU) -->
