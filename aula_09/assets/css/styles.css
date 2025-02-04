@@ -1,0 +1,189 @@
+:root {
+  --primary-color: #e53f2e;
+  --secondary-color: #95989a;
+  --text-color: #fff;
+  --text-secondary: #000;
+  --text-tertiary: #5d5d5d;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#event-subscription {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+              url('../img/hrz-4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--text-color);
+}
+
+#disclaimer {
+
+
+
+  & h2 {
+    color: var(--primary-color);
+    font-size: 3em;
+    margin-bottom: 0.3em;
+  }
+
+  & .event-date {
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+
+  & .about-event {
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+
+  & p {
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+  }
+
+
+}
+
+#subscription-form {
+  background-color: var(--secondary-color);
+  padding: 2em;
+  max-width: 30%;
+  border-radius: 8px;
+
+  & p {
+    font-size: 1.8em;
+    color: var(--text-secondary);
+    margin-bottom: 1em;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8em;
+
+  & label {
+    color: var(--text-tertiary);
+    font-weight: bold;
+    margin-bottom: 0.3em;
+  }
+
+  & input, select {
+    padding: 12px, 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 32px;
+  }
+
+  & input::placeholder {
+    padding: 5px;
+    font-weight: 500;
+  }
+
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  text-transform: uppercase;
+  width: 100%;
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s;
+  border-radius: 8px;
+
+  &:hover {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+}
+
+/* location */
+
+#location {
+  height: 400px;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--text-color);
+  margin-bottom: 3em;
+}
+
+#address, #about-location{
+  max-width: 45%;
+}
+
+#address {
+  display: flex;
+
+  & i {
+    font-size: 4em;
+    margin-right: 0.5em;
+    color: var(--primary-color);
+  }
+}
+
+#adress-details {
+  text-align: center;
+  font-size: 1.3em;
+
+  & p {
+    line-height: 1.8em;
+  }
+}
+
+#about-location {
+  
+  & h3 {
+    color: var(--primary-color);
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  & p {
+    line-height: 1.5em;
+  }
+}
+
+#footer {
+  text-align: center;
+  color: var(--text-secondary);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  & h3 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    color: var(--primary-color);
+
+  }
+
+  & p:nth-child(2) {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+  }
+
+  & span {
+    font-weight: bold;
+  }
+}
